@@ -1,0 +1,80 @@
+[addition]
+category = operations
+description = Add many numbers just in one raw
+usage = &addition <numbers>
+[info]
+category = info
+description = Information file
+usage = &info <command> or just &info
+[hash]
+category = hash
+description = Crypts any string in default hash
+usage = &hash <hash> <string-to-hash>
+available=blake2b, sha224, sha3_384, sha256, md5, blake2s, sha512, sha384, sha3_224, sha3_512, shake_128, shake_256, sha3_256, sha1, crc32, adler32
+[link]
+category = info
+description = Link to add bot to your server
+[play]
+category = music
+description = Play some music
+music = True
+usage = &play <youtube-video>
+[pause]
+category = music
+description = Pause current track
+music = True
+usage = &pause
+[todo]
+category = other
+description = Form your own list of todos
+usage = &todo <command> <text>
+available = add, list, remove/delete
+[sudokusolver]
+category = other
+description = Solve any sudoku with our algorythms
+usage = &sudokusolver <sudoku>
+[sudoku]
+category = other
+description = Generate sudoku
+usage = &sudoku <difficulty>
+[sudokucheck]
+category = other
+description = Check your solution with our solution
+usage = &sudokucheck <solution>
+[members]
+category = info
+description = Shows amount of servers with this bot
+usage = &members
+[translate]
+category = other
+description = Translate some text
+usage = &translate <auto> <destination> <text>
+available = translate, detect
+[lvl]
+category = raids, levels
+description = Custom leveling system
+usage = &lvl <command> <text>
+available = info, enterkey, checkup
+[raid]
+category = raids, levels
+description = Raid system
+usage = &raid <command>
+available = create (for admins), join, finish (for admins), list
+[modules]
+category = other
+description = Toolset for admins to manage modules (commands)
+usage = &modules <command> <module>
+available = inject, reload
+[text2ascii]
+category = converters
+description = Convert any text to ascii numbers and shows chars sum
+usage = &text2ascii <text>
+[ascii2text]
+category = converters
+description = Convert any string of ascii numbers to text
+usage = &ascii2text <text>
+[links]
+category = raids, levels
+description = Linking system
+usage = &links <command> <optional-text>
+available = add, delete/remove, get (only for develerers), send (only for develerers)
